@@ -1,4 +1,5 @@
-
+import subprocess 
+import json
 
 command = './derive -g --mnemonic="INSERT HERE" --cols=path,address,privkey,pubkey --format=json'
 
