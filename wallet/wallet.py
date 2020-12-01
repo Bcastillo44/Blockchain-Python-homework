@@ -14,14 +14,14 @@ from eth_account import Account
 
 
 # Web3 connection and loading mnemonic
-# Nodes runing with POW
+
 w3 = Web3(Web3.HTTPProvider("http://127.0.0.1.8545"))
 
 # Loading EV
-load_dotenv
+load_dotenv()
 
 # Loading Mnemonic EV and (set this mnemonic as an environment variable, and include the one you generated as a fallback using)
-mnemonic = os.getenv('MNEMONIC', "twenty type guide fire unknown cube kidney holiday save uniform problem whip erase wink dwarf")
+mnemonic = os.getenv('MNEMONIC', "about rug tennis gym visit angry unknown robot night solution drink process")
 print(mnemonic)
 
 # Functions to transact
